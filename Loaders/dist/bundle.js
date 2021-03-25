@@ -10,6 +10,46 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./src/components/button.js":
+/*!**********************************!*\
+  !*** ./src/components/button.js ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _button_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./button.scss */ \"./src/components/button.scss\");\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\n\n\nvar Button = /*#__PURE__*/function () {\n  function Button() {\n    _classCallCheck(this, Button);\n  }\n\n  _createClass(Button, [{\n    key: \"create\",\n    value: function create() {\n      var button = document.createElement('button');\n      button.innerText = \"Clique em mim!\";\n      button.classList.add('btn');\n      document.querySelector('body').appendChild(button);\n    }\n  }]);\n\n  return Button;\n}();\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Button);\n\n//# sourceURL=webpack://aula2/./src/components/button.js?");
+
+/***/ }),
+
+/***/ "./src/components/image.js":
+/*!*********************************!*\
+  !*** ./src/components/image.js ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _img_314574_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../img/314574.png */ \"./src/img/314574.png\");\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\n\n\nvar Image = /*#__PURE__*/function () {\n  function Image() {\n    _classCallCheck(this, Image);\n  }\n\n  _createClass(Image, [{\n    key: \"insetBobImage\",\n    value: function insetBobImage() {\n      var img = document.createElement('img');\n      img.src = _img_314574_png__WEBPACK_IMPORTED_MODULE_0__.default;\n      img.width = 400;\n      document.querySelector('body').appendChild(img);\n    }\n  }]);\n\n  return Image;\n}();\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Image);\n\n//# sourceURL=webpack://aula2/./src/components/image.js?");
+
+/***/ }),
+
+/***/ "./src/components/title.js":
+/*!*********************************!*\
+  !*** ./src/components/title.js ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _title_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./title.css */ \"./src/components/title.css\");\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\n\n\nvar Title = /*#__PURE__*/function () {\n  function Title() {\n    _classCallCheck(this, Title);\n  }\n\n  _createClass(Title, [{\n    key: \"create\",\n    value: function create(title) {\n      var h1 = document.createElement('h1');\n      h1.innerText = title;\n      h1.classList.add('main-title');\n      document.querySelector('body').appendChild(h1);\n    }\n  }]);\n\n  return Title;\n}();\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Title);\n\n//# sourceURL=webpack://aula2/./src/components/title.js?");
+
+/***/ }),
+
+/***/ "./src/index.js":
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _components_title_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/title.js */ \"./src/components/title.js\");\n/* harmony import */ var _components_image_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/image.js */ \"./src/components/image.js\");\n/* harmony import */ var _components_button_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/button.js */ \"./src/components/button.js\");\n/* harmony import */ var _templates_warning_html__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./templates/warning.html */ \"./src/templates/warning.html\");\n/* harmony import */ var _styles_warning_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./styles/warning.css */ \"./src/styles/warning.css\");\n/* harmony import */ var _files_frase_txt__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./files/frase.txt */ \"./src/files/frase.txt\");\n/* harmony import */ var _files_descricao_json__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./files/descricao.json */ \"./src/files/descricao.json\");\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n\n\n\n\n\n\n\nvar title = new _components_title_js__WEBPACK_IMPORTED_MODULE_0__.default();\ntitle.create(\"Primeira pagina\");\nvar image = new _components_image_js__WEBPACK_IMPORTED_MODULE_1__.default();\nimage.insetBobImage();\nvar button = new _components_button_js__WEBPACK_IMPORTED_MODULE_2__.default();\nbutton.create(); //babel spread\n\nvar obj = {\n  a: 1,\n  b: 2,\n  c: 3,\n  d: 4\n};\n\nvar a = obj.a,\n    b = obj.b,\n    teste = _objectWithoutProperties(obj, [\"a\", \"b\"]);\n\nconsole.log(a);\nconsole.log(a);\nconsole.log(teste);\nvar body = document.querySelector('body');\nbody.innerHTML += _templates_warning_html__WEBPACK_IMPORTED_MODULE_3__.default;\nvar frase = _files_frase_txt__WEBPACK_IMPORTED_MODULE_5__.default;\nconsole.log(frase);\nvar pessoa = _files_descricao_json__WEBPACK_IMPORTED_MODULE_6__;\nconsole.log(pessoa);\n\n//# sourceURL=webpack://aula2/./src/index.js?");
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/button.scss":
 /*!*****************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/button.scss ***!
@@ -27,6 +67,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \".main-title {\\r\\n    background-color: red;\\r\\n    color: black;\\r\\n    text-align: center;\\r\\n    border-bottom: 2px solid blue;\\r\\n    padding: 20px;\\r\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://aula2/./src/components/title.css?./node_modules/css-loader/dist/cjs.js");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./src/styles/warning.css":
+/*!**********************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./src/styles/warning.css ***!
+  \**********************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \".warning {\\r\\n    padding: 20px;\\r\\n    width: 100%;\\r\\n    background-color: red;\\r\\n    color: #fff;\\r\\n}\\r\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://aula2/./src/styles/warning.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -50,6 +100,26 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./src/templates/warning.html":
+/*!************************************!*\
+  !*** ./src/templates/warning.html ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// Module\nvar code = \"<div>\\r\\n    <p class=\\\"warning\\\">Você não pode acessar esta página</p>\\r\\n</div>\";\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (code);\n\n//# sourceURL=webpack://aula2/./src/templates/warning.html?");
+
+/***/ }),
+
+/***/ "./src/files/frase.txt":
+/*!*****************************!*\
+  !*** ./src/files/frase.txt ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (\"O webpack é muito legal!\");\n\n//# sourceURL=webpack://aula2/./src/files/frase.txt?");
+
+/***/ }),
+
 /***/ "./src/components/button.scss":
 /*!************************************!*\
   !*** ./src/components/button.scss ***!
@@ -70,6 +140,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./src/styles/warning.css":
+/*!********************************!*\
+  !*** ./src/styles/warning.css ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_cjs_js_warning_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../node_modules/css-loader/dist/cjs.js!./warning.css */ \"./node_modules/css-loader/dist/cjs.js!./src/styles/warning.css\");\n\n            \n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_warning_css__WEBPACK_IMPORTED_MODULE_1__.default, options);\n\n\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_warning_css__WEBPACK_IMPORTED_MODULE_1__.default.locals || {});\n\n//# sourceURL=webpack://aula2/./src/styles/warning.css?");
+
+/***/ }),
+
 /***/ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js":
 /*!****************************************************************************!*\
   !*** ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
@@ -80,43 +160,13 @@ eval("\n\nvar isOldIE = function isOldIE() {\n  var memo;\n  return function mem
 
 /***/ }),
 
-/***/ "./src/components/button.js":
+/***/ "./src/files/descricao.json":
 /*!**********************************!*\
-  !*** ./src/components/button.js ***!
+  !*** ./src/files/descricao.json ***!
   \**********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ ((module) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _button_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./button.scss */ \"./src/components/button.scss\");\n\r\n\r\nclass Button {\r\n\r\n    create() {\r\n        const button = document.createElement('button');\r\n\r\n        button.innerText = \"Clique em mim!\";\r\n\r\n        button.classList.add('btn');\r\n\r\n        document.querySelector('body').appendChild(button);\r\n    }\r\n}\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Button);\n\n//# sourceURL=webpack://aula2/./src/components/button.js?");
-
-/***/ }),
-
-/***/ "./src/components/image.js":
-/*!*********************************!*\
-  !*** ./src/components/image.js ***!
-  \*********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _img_314574_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../img/314574.png */ \"./src/img/314574.png\");\n\r\n\r\nclass Image {\r\n    \r\n    insetBobImage() {\r\n        const img = document.createElement('img');\r\n        \r\n        img.src = _img_314574_png__WEBPACK_IMPORTED_MODULE_0__.default;\r\n        img.width = 400;\r\n\r\n        document.querySelector('body').appendChild(img)\r\n    }\r\n}\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Image);\n\n//# sourceURL=webpack://aula2/./src/components/image.js?");
-
-/***/ }),
-
-/***/ "./src/components/title.js":
-/*!*********************************!*\
-  !*** ./src/components/title.js ***!
-  \*********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _title_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./title.css */ \"./src/components/title.css\");\n\r\n\r\nclass Title {\r\n    \r\n    create(title) {\r\n\r\n        const h1 = document.createElement('h1');\r\n\r\n        h1.innerText = title;\r\n        h1.classList.add('main-title');\r\n\r\n        document.querySelector('body').appendChild(h1);\r\n\r\n    }\r\n}\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Title);\n\n//# sourceURL=webpack://aula2/./src/components/title.js?");
-
-/***/ }),
-
-/***/ "./src/index.js":
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _components_title_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/title.js */ \"./src/components/title.js\");\n/* harmony import */ var _components_image_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/image.js */ \"./src/components/image.js\");\n/* harmony import */ var _components_button_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/button.js */ \"./src/components/button.js\");\n\r\n\r\n\r\n\r\nconst title = new _components_title_js__WEBPACK_IMPORTED_MODULE_0__.default();\r\n\r\ntitle.create(\"Primeira pagina\")\r\n\r\nconst image = new _components_image_js__WEBPACK_IMPORTED_MODULE_1__.default();\r\n\r\nimage.insetBobImage();\r\n\r\nconst button = new _components_button_js__WEBPACK_IMPORTED_MODULE_2__.default();\r\n\r\nbutton.create();\n\n//# sourceURL=webpack://aula2/./src/index.js?");
+eval("module.exports = JSON.parse('{\"nome\":\"Matheus\",\"idade\":29,\"profissao\":\"Programador\"}');\n\n//# sourceURL=webpack://aula2/./src/files/descricao.json?");
 
 /***/ })
 
